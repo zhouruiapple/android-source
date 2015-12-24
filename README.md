@@ -1,11 +1,17 @@
 # android-source
 
 <b>hdiutil attach ~/Documents/build.dmg -mountpoint /Volumes/build</b>
+
 <b>export PATH=/opt/local/bin:$PATH</b>
+
 <b>ulimit -S -n 1024</b>
+
 <b>export USE_CCACHE=1</b>
+
 <b>export CCACHE_DIR=~/Documents/ccache</b>
+
 <b>prebuilts/misc/darwin-x86/ccache/ccache -M 50G</b>
+
 <b>export PATH=~/Documents/bin:$PATH</b>
 
 <b>gpg --import</b>
