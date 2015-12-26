@@ -51,8 +51,8 @@ EXzeoxcdoafxqf6gZlJZlACgkWF7wi2YLW3Oa+jv2QSTlrx4KLM=
 
 解决方案是将/Volumes/android/external/iptables/include/linux/netfilter_ipv4/ipt_ECN.h中的
 
-<linux/netfilter/xt_DSCP.h>
+linux/netfilter/xt_DSCP.h
 
 改成
 
-<linux/netfilter/xt_dscp.h>
+linux/netfilter/xt_dscp.h
