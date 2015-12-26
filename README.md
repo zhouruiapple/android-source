@@ -46,3 +46,13 @@ hN0DlsIw8hqJc0WISQQYEQIACQUCSedYRAIbDAAKCRDorT+BmrEOeCUOAJ9qmR0l
 EXzeoxcdoafxqf6gZlJZlACgkWF7wi2YLW3Oa+jv2QSTlrx4KLM=
 =Wi5D
 -----END PGP PUBLIC KEY BLOCK-----
+
+* compile error
+
+解决方案是将/Volumes/android/external/iptables/include/linux/netfilter_ipv4/ipt_ECN.h中的
+
+#include <linux/netfilter/xt_DSCP.h>
+
+改成
+
+#include <linux/netfilter/xt_dscp.h>
